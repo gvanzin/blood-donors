@@ -1,2 +1,2 @@
-# predicting-blood-donors
+# predicting blood donors
 Galvanize capstone repo
