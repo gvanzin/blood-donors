@@ -6,7 +6,8 @@ from data_prep import modeling_prep
 from evaluator import *
 from sklearn.metrics import roc_auc_score
 import graphlab as gl
-'''these functions grid search for the best parameters across three models using 5 fold cross validation'''
+'''these functions grid search for the best parameters across three
+   models using 5 fold cross validation'''
 def logistic_grid(train_set):
       logisticparams = dict([('target', 'target'),
                    ('class_weights', 'auto'),
